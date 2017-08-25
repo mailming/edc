@@ -29,9 +29,9 @@ subprojects {
         mavenCentral()
     }
 	if (!project.hasProperty("mavenUser")){
-	    ext.mavenUser = "turn-ci"
+	    ext.mavenUser = ""
 	}
 	if (!project.hasProperty("mavenPassword")){
-	    ext.mavenPassword = "turn-ci"
+	    ext.mavenPassword = ""
 	}
 }
